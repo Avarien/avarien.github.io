@@ -1,0 +1,119 @@
+body {
+  background: #0c0f0b url(../images/bg.jpg) no-repeat center -150px;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+body > .container {
+  background-color: #1b1f19;
+  margin-top: 150px;
+  box-shadow: 0 0 80px #000000;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+header {
+  background: #0c0f0b url(../images/bg.jpg) no-repeat center top;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.07);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09) !important;
+  margin-top: 99px;
+}
+
+nav a {
+  text-shadow: none !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+@font-face {
+  font-family: 'Allods West';
+  src: url('http://allods.my.com/sites/allods.my.com/themes/allods/fonts/allods_west.eot');
+  src: url('http://allods.my.com/sites/allods.my.com/themes/allods/fonts/allods_west.eot?#iefix') format('embedded-opentype'),
+    url('http://allods.my.com/sites/allods.my.com/themes/allods/fonts/allods_west.woff') format('woff'),
+    url('http://allods.my.com/sites/allods.my.com/themes/allods/fonts/allods_west.ttf') format('truetype'),
+    url('http://allods.my.com/sites/allods.my.com/themes/allods/fonts/allods_west.svg#allodswestregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AllodsRegular';
+  src: url('http://allods.my.com/sites/allods.my.com/themes/allods/fonts/allods-webfont.eot');
+  src: url('http://allods.my.com/sites/allods.my.com/themes/allods/fonts/allods-webfont.eot?#iefix') format('embedded-opentype'),
+    url('http://allods.my.com/sites/allods.my.com/themes/allods/fonts/allods-webfont.woff') format('woff'),
+    url('http://allods.my.com/sites/allods.my.com/themes/allods/fonts/allods-webfont.ttf') format('truetype'),
+    url('http://allods.my.com/sites/allods.my.com/themes/allods/fonts/allods-webfont.svg#AllodsRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AllodsWest';
+  src: url('//allods.cdn.gmru.net/static/static/fonts/allods_new-webfont.eot');
+  src: url('//allods.cdn.gmru.net/static/static/fonts/allods_new-webfont.eot?#iefix') format('embedded-opentype'),
+    url('//allods.cdn.gmru.net/static/static/fonts/allods_new-webfont.woff') format('woff'),
+    url('//allods.cdn.gmru.net/static/static/fonts/allods_new-webfont.ttf') format('truetype'),
+    url('//allods.cdn.gmru.net/static/static/fonts/allods_new-webfont.svg#AllodsRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'AllodsWest';
+  font-weight: bold;
+}
+/*
+#level1 .need {font-style: normal;}
+#use_ah {background-color: #f2f2f2;padding: 10px;}
+#use_ah .row {border: none;}
+#use_ah #cc_ah_cost {text-align: right;width: 30px;}
+#use_ah .hidden {padding-left: 28px !important;}
+
+#costs {background-color: #e2e2e2;color: #555555;font-weight: bold;padding: 10px;margin-top: 20px;}
+#use_ah .row,
+#costs .row {border-top: 1px solid #ffffff;margin-top: 6px;padding: 6px 6px 0;}
+#use_ah .row.first,
+#costs .row.first {border-top: none;margin-top: 0;padding-top: 0;}
+#total_gds .name,
+#total_ccs .name,
+#total_gold_cost .name {float: left;width: 120px;}
+#total_gds .amount {background: transparent url(../images/gd.png) no-repeat right center;padding-right: 19px;}
+#total_ccs .amount {background: transparent url(../images/cc.png) no-repeat right center;padding-right: 19px;}
+#total_gds .amount,
+#total_ccs .amount,
+#total_gold_cost .amount {float: left;font-size: 13px;}
+#total_gold_cost .gold,
+#total_gold_cost .silver,
+#total_gold_cost .copper {float: left;margin-right: 8px;}
+
+#ft {color: #cccccc;padding: 15px 20px;text-align: center;}
+
+.header {background-color: #777777;color: #ffffff;padding: 1px;}
+.header .col {border-right: none;font-size: 13px;font-style: normal !important;font-weight: bold;}
+
+.col {border-right: 0px solid #dddddd;float: left;line-height: 30px;height: 30px;padding: 2px 0;text-align: center;}
+.col.level {font-weight: bold;text-align: center;width: 90px;}
+.col.ratio {width: 100px;}
+.col.cc {width: 110px;}
+.col.gd {width: 86px;}
+.col.want {width: 100px;}
+.col.have {width: 100px;}
+.col.need {border-right: none;font-style: italic;width: 80px;}
+
+.row {border-bottom: 1px solid #dddddd;padding-right: 8px;}
+.row.even {background-color: #f7f7f7;}
+
+.gold {background: transparent url(../images/Gold.png) no-repeat right center;padding-right: 19px;}
+.silver {background: transparent url(../images/Silver.png) no-repeat right center;padding-right: 19px;}
+.copper {background: transparent url(../images/Copper.png) no-repeat right center;padding-right: 19px;}
+.ccs {background: transparent url(../images/cc.png) no-repeat right center;padding-right: 19px;text-align: right;}
+
+.hidden {display: none;}
+.right {float: right;}
+.clear {clear: both;line-height: 0;font-size: 0;margin: 0;overflow: hidden;padding: 0;}
+*/
