@@ -16,28 +16,6 @@
     src: url("../fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
 }
 
-@font-face {
-    font-family: 'AllodsWest';
-    src: url('https://allods.mail.ru/static/static/fonts/allods_new-webfont.eot');
-    src: url('https://allods.mail.ru/static/static/fonts/allods_new-webfont.eot?#iefix') format('embedded-opentype'),
-        url('https://allods.mail.ru/static/static/fonts/allods_new-webfont.woff') format('woff'),
-        url('https://allods.mail.ru/static/static/fonts/allods_new-webfont.ttf') format('truetype'),
-        url('https://allods.mail.ru/static/static/fonts/allods_new-webfont.svg#AllodsRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'AllodsRegular';
-    src: url('https://allods.mail.ru/static/static/fonts/allods-webfont.eot');
-    src: url('https://allods.mail.ru/static/static/fonts/allods-webfont.eot?#iefix') format('embedded-opentype'),
-        url('https://allods.mail.ru/static/static/fonts/allods-webfont.woff') format('woff'),
-        url('https://allods.mail.ru/static/static/fonts/allods-webfont.ttf') format('truetype'),
-        url('https://allods.mail.ru/static/static/fonts/allods-webfont.svg#AllodsRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 html {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -48,10 +26,6 @@ html {
     html {
         font-family: 'Inter var', sans-serif !important;
     }
-}
-
-h1 {
-    font-family: 'AllodsWest';
 }
 
 [type="checkbox"] {
