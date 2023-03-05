@@ -47,8 +47,11 @@ html {
 @supports (font-variation-settings: normal) {
     html {
         font-family: 'Inter var', sans-serif !important;
-        sans-serif;
     }
+}
+
+h1 {
+    font-family: 'AllodsWest';
 }
 
 [type="checkbox"] {
